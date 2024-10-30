@@ -6,3 +6,6 @@ lazy val root = (project in file("."))
   .settings(
     name := "minimal-triangle-path"
   )
+
+val jarName = "MinimumTrianglePath.jar"
+assembly/assemblyJarName := jarName

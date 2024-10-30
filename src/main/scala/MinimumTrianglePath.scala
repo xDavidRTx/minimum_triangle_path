@@ -1,5 +1,6 @@
+import services.DataLoader
+
 object MinimumTrianglePath extends App {
-
-  println("Hello world!")
-
+  val triangle = DataLoader.loadData()
+  triangle.rows.foreach(println)
 }
