@@ -6,7 +6,7 @@ structure and finds the path of adjacent nodes with the minimum summed value.
 In order to run this application you need to clone this repository
 
 ```
-git clone git@github.com:xDavidRTx/minimum_triangle_paths.git
+git clone git@github.com:xDavidRTx/minimum_triangle_path.git
 ```
 
 Then build the fat-jar using
