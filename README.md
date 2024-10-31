@@ -25,8 +25,7 @@ This command will generate a runnable JAR file in the target/scala-3.6.1/ direct
 Once the JAR file is built, you can run the application by providing it with the path to the input file. For example, to use a sample file from the resources directory, you can run:
 
 ```bash
-cat src/main/resources/data_big.txt | java -jar target/scala-3.6.1/MinimumTrianglePath.jar
-```
+cat src/main/resources/example.txt | java -jar target/scala-3.6.1/MinimumTrianglePath.jar```
 
 ### Input File Format
 The input file should be structured as a triangle, where each line represents a row of integers. For example:
