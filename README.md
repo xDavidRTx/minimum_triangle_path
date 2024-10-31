@@ -26,6 +26,7 @@ Once the JAR file is built, you can run the application by providing it with the
 
 ```bash
 cat src/main/resources/example.txt | java -jar target/scala-3.6.1/MinimumTrianglePath.jar```
+```
 
 ### Input File Format
 The input file should be structured as a triangle, where each line represents a row of integers. For example:
